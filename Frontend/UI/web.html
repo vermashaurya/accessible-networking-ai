@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee Restaurant</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+<div class="menu">
+<h2>Menu</h2>
+<ul>
+<li><button class="coffee-button" onclick="addToOrder('Espresso')">Espresso</button></li>
+<li><button class="coffee-button" onclick="addToOrder('Cappuccino')">Cappuccino</button></li>
+<li><button class="coffee-button" onclick="addToOrder('Latte')">Latte</button></li>
+<li><button class="coffee-button" onclick="addToOrder('Mocha')">Mocha</button></li>
+</ul>
+</div>
+<div class="order-details">
+<h2>Order Details</h2>
+<ul id="orderList"></ul>
+</div>
+</div>
+
+<div class="sidebar">
+<div class="server-info">
+<h2>Server Information</h2>
+<img src="staff.jpg" alt="Staff Member Photo" class="staff-photo">
+<p>Name: John Doe</p>
+<p>Position: Barista</p>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
