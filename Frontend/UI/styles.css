@@ -1,0 +1,71 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f5f5f5; /* Added background color */
+}
+
+.container {
+display: flex;
+margin: 20px;
+}
+
+.menu {
+flex: 1;
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 10px;
+}
+
+.order-details {
+flex: 1;
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 10px;
+margin-left: 20px; /* Added margin */
+}
+
+.order-details h2 {
+color: #333;
+}
+
+.sidebar {
+background-color: #333;
+color: #fff;
+padding: 20px;
+width: 200px;
+border-radius: 10px;
+}
+
+.server-info {
+text-align: center; /* Center the content */
+}
+
+.staff-photo {
+width: 150px;
+border-radius: 50%; /* Rounded photo */
+margin-bottom: 10px;
+}
+
+.server-info h2 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.server-info p {
+margin: 5px 0;
+}
+
+.coffee-button {
+background-color: #4CAF50;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.coffee-button:hover {
+background-color: #45a049;
+}
