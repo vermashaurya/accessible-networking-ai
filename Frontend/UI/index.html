@@ -7,10 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Skip Navigation for Accessibility -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
-
-  <!-- Top Navigation Bar -->
   <header class="top-bar" role="banner">
     <div class="logo">
       <svg class="logo-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -52,8 +49,6 @@
       </button>
     </div>
   </header>
-
-  <!-- Accessibility Settings Panel -->
   <div class="a11y-panel" id="a11yPanel" role="dialog" aria-label="Accessibility settings" aria-hidden="true">
     <div class="a11y-panel-content">
       <h2>Accessibility Settings</h2>
@@ -83,15 +78,9 @@
       <button class="btn btn-secondary" id="closeA11yPanel">Close</button>
     </div>
   </div>
-
-  <!-- Main Content Area -->
   <main id="main-content">
-
-    <!-- ===== DASHBOARD VIEW ===== -->
     <section class="view active" id="dashboardView" aria-label="Dashboard">
       <div class="dashboard-grid">
-
-        <!-- Robot Status Card -->
         <div class="card card-status">
           <div class="card-header">
             <h2>Robot Status</h2>
@@ -118,8 +107,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Quick Robot Control -->
         <div class="card card-controls">
           <div class="card-header">
             <h2>Quick Controls</h2>
@@ -152,8 +139,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Camera Preview -->
         <div class="card card-camera-preview">
           <div class="card-header">
             <h2>Camera Preview</h2>
@@ -171,8 +156,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Emotion Detection Card -->
         <div class="card card-emotion">
           <div class="card-header">
             <h2>Emotion Detection</h2>
@@ -194,8 +177,6 @@
             <p class="card-note">Enable camera to start emotion detection</p>
           </div>
         </div>
-
-        <!-- Recent Chat Activity -->
         <div class="card card-chat-preview">
           <div class="card-header">
             <h2>Recent Messages</h2>
@@ -210,8 +191,6 @@
             </div>
           </div>
         </div>
-
-        <!-- System Info -->
         <div class="card card-info">
           <div class="card-header">
             <h2>System Info</h2>
@@ -243,8 +222,6 @@
         </div>
       </div>
     </section>
-
-    <!-- ===== ROBOT CONTROLLER VIEW ===== -->
     <section class="view" id="controllerView" aria-label="Robot controller">
       <div class="controller-layout">
         <div class="controller-main">
@@ -309,8 +286,6 @@
         </div>
       </div>
     </section>
-
-    <!-- ===== CAMERA VIEW ===== -->
     <section class="view" id="cameraView" aria-label="Camera feed">
       <div class="camera-layout">
         <div class="card camera-card">
@@ -390,8 +365,6 @@
         </div>
       </div>
     </section>
-
-    <!-- ===== CHAT VIEW ===== -->
     <section class="view" id="chatView" aria-label="Chat">
       <div class="chat-layout">
         <div class="card chat-card">
@@ -436,7 +409,6 @@
       </div>
     </section>
   </main>
-
   <script src="script.js"></script>
 </body>
 </html>
