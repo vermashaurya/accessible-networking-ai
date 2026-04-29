@@ -122,7 +122,7 @@ Shortcuts are active on the Dashboard and Robot Controller views.
 
 Licensed under the [Apache License 2.0](LICENSE).
 
-Copyright (c) 2026
+Copyright (c) 2026<br>
 <img src = name-geo1.avif width="600px"><br>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square)](LICENSE)
